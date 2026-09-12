@@ -2,15 +2,15 @@ points = int(input("How many points [0-100]: "))
 
 if points < 0 or points > 100:
     print("Grade: impossible!")
-elif points >= 90 and points <= 100:
+elif points >= 90:
     print("Grade: 5")
-elif points >= 80 and points <= 89:
+elif points >= 80:
     print("Grade: 4")
-elif points >= 70 and points <= 79:
+elif points >= 70:
     print("Grade: 3")
-elif points >= 60 and points <= 69:
+elif points >= 60:
     print("Grade: 2")
-elif points >= 50 and points <= 59:
+elif points >= 50:
     print("Grade: 1")
 else:
     print("Grade: fail")
